@@ -358,7 +358,7 @@ class QAbstractSpinBox(QW.QAbstractSpinBox, QWidget):
         super().__init__(*args, **kwargs)
 
         # Use default settings
-        self.setStepType(self.AdaptiveDecimalStepType)
+        # self.setStepType(self.AdaptiveDecimalStepType) # Commented out by G. Tremblay
         self.setAccelerated(True)
         self.setGroupSeparatorShown(True)
         self.setStyleSheet(
